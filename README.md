@@ -1,6 +1,6 @@
 # CCF211-TP2
  Repositório do segundo Trabalho Prático da disciplina de AEDs I - CCF 211
-INTRODUÇÃO
+#INTRODUÇÃO
 O objetivo deste trabalho prático é permitir a avaliação do impacto causado pelo desempenho
 dos algoritmos em sua execução real. Vimos em sala de aula que existem problemas e
 algoritmos de complexidade exponencial, chamados de intratáveis. Nesses casos, os
