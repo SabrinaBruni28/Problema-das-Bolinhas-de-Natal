@@ -1,6 +1,6 @@
-# CCF211-TP2
- Repositório do segundo Trabalho Prático da disciplina de AEDs I - CCF 211
-#INTRODUÇÃO
+# Trabalho-Pratico-2---AEDS1
+##INTRODUÇÃO
+
 O objetivo deste trabalho prático é permitir a avaliação do impacto causado pelo desempenho
 dos algoritmos em sua execução real. Vimos em sala de aula que existem problemas e
 algoritmos de complexidade exponencial, chamados de intratáveis. Nesses casos, os
@@ -13,7 +13,9 @@ avaliação de todas as possíveis saídas, o que chamamos de força bruta. Nest
 implementação deverá ser executada para diferentes tamanhos de entrada, e o tempo gasto
 para que o programa termine, em cada caso, deverá ser medido por meio de comandos do
 sistema operacional.
-PROBLEMA DAS BOLINHAS DE NATAL (PBN)
+
+##PROBLEMA DAS BOLINHAS DE NATAL (PBN)
+
 O Natal está chegando e todos querem ter uma árvore de Natal bem colorida e decorada em
 casa. Para isso, é necessário espalhar as bolinhas de Natal pela árvore, de modo que bolinhas
 adjacentes (que estejam uma do lado da outra ou uma acima/abaixo da outra) não possuam a
@@ -40,7 +42,9 @@ exemplo, dada uma árvore de natal com 5 espaços para pendurar bolinhas e 3 cor
 bolinhas diferentes (Azul - A, Verde - V, Roxo - R), uma solução do PBN nesse caso poderia ser
 [A, V, V, R, A] considerando que o espaço E 0 não seja adjacente ao E 4 e o espaço E 1 não seja
 adjacente ao E 2 .
-SOLUÇÃO EXATA PBN
+
+##SOLUÇÃO EXATA PBN
+
 Existem diversas possíveis implementações para o PBN. Entretanto, as mais utilizadas
 requerem recursos de programação que ainda não foram estudados por vocês. Dessa forma,
 adotaremos uma estratégia mais direta, visto que o objetivo principal do trabalho é a avaliação
@@ -89,15 +93,27 @@ como entrada, o qual irá conter os conjuntos de adjacências para uma dada exec
 do PBN. No exemplo abaixo, as linhas descrevem as adjacências da seguinte forma: o
 primeiro valor informa um elemento do arranjo, sendo que os seguintes são os
 elementos adjacentes àquele primeiro. Exemplo:
-0 1 3
-1 0 2
-2 1 4
-3 0 4
-4 2 3
+
+0  1  3
+
+1  0  2
+
+2  1  4
+
+3  0  4
+
+4  2  3
+
 Matriz de adjacência preenchida após leitura da entrada:
-IxJ 0  1  2  3  4 
-0  -1  1  0  1  0
-1   1 -1  1  0  0
-2   0  1 -1  0  1
-3   1  0  0 -1  1
-4   0  0  1  1 -1
+
+IxJ  0   1   2   3   4 
+
+0   -1   1   0   1   0
+
+1    1  -1   1   0   0
+
+2    0   1  -1   0   1
+
+3    1   0   0  -1   1
+
+4    0   0   1   1  -1
