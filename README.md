@@ -1,5 +1,5 @@
 # Trabalho-Pratico-2---AEDS1
-##INTRODUÇÃO
+### INTRODUÇÃO
 
 O objetivo deste trabalho prático é permitir a avaliação do impacto causado pelo desempenho
 dos algoritmos em sua execução real. Vimos em sala de aula que existem problemas e
@@ -14,7 +14,7 @@ implementação deverá ser executada para diferentes tamanhos de entrada, e o t
 para que o programa termine, em cada caso, deverá ser medido por meio de comandos do
 sistema operacional.
 
-##PROBLEMA DAS BOLINHAS DE NATAL (PBN)
+### PROBLEMA DAS BOLINHAS DE NATAL (PBN)
 
 O Natal está chegando e todos querem ter uma árvore de Natal bem colorida e decorada em
 casa. Para isso, é necessário espalhar as bolinhas de Natal pela árvore, de modo que bolinhas
@@ -43,7 +43,7 @@ bolinhas diferentes (Azul - A, Verde - V, Roxo - R), uma solução do PBN nesse 
 [A, V, V, R, A] considerando que o espaço E 0 não seja adjacente ao E 4 e o espaço E 1 não seja
 adjacente ao E 2 .
 
-##SOLUÇÃO EXATA PBN
+### SOLUÇÃO EXATA PBN
 
 Existem diversas possíveis implementações para o PBN. Entretanto, as mais utilizadas
 requerem recursos de programação que ainda não foram estudados por vocês. Dessa forma,
